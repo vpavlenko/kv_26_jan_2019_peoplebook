@@ -105,6 +105,7 @@ const people = [
     "occupation": "Первый курс технического вуза. Делал сайты разным магазинам и посольству Греции в Кодельной. Попиливал Питонтьютор Виталика. Оператор Скетча второго разряда — умею играть в нём мурку на скорость. Учу школьников и младшекурсников основам инфобеза, провожу региональные CTF-соревнования. В свободное время делаю телеграм-ботов и пишу музыку. ",
     "knowledge": "Меня можно спросить про:\n— состояние CTF в этой стране\n— типографику и дизайн интерфейса \n— житие в сибирской дыре\n— самокрутки\n— то, почему я такой школьник",
     "photo": "https://vanyaklimenko.ru/me.jpg",
+    "photo": "http://vanyaklimenko.ru/me.jpg",
     "profiles": "t.me/mayst\nvanyaklimenko.ru"
   },
   {
@@ -153,17 +154,25 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        Пиплбук
-        {people.map(row => <div>
-          <h1>{row.name}</h1>
-          <img src={row.photo} style={{width: "200px"}} />
+        <div class="title">Пиплбук</div>
+        <div className="toc">
+            {people.map(row => <a href={"#" + row.name} class="toc__person">
+                <img src={row.photo} className="photo photo--small" />
+                <div class="name name--brief">{row.name.split(' ')[0]}</div>
+            </a>)}
+        </div>
+        <div class="people">
+        {people.map(row => <div class="person" id={row.name}>
+          <div class="name name--full">{row.name}</div>
+          <img class="photo photo--large" src={row.photo} />
           <div class="label">Чем занимаюсь</div>
-          <div class="answer">{row.occupation}</div>
+          <div class="answer">{row.pation}</div>
           <div class="label">О чем могу рассказать</div>
           <div class="answer">{row.knowledge}</div>
           <div class="label">Контакты</div>
           <div class="answer">{row.profiles}</div>
           </div>)}
+        </div>
       </div>
     );
   }
