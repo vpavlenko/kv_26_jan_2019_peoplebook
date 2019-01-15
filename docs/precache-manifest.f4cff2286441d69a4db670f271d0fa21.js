@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "a210acbebe894d6757e4",
-    "url": "/sns_peoplebook/static/css/main.d713ede5.chunk.css"
+    "revision": "ad1e65b88f35b813978a",
+    "url": "/sns_peoplebook/static/css/main.4678afeb.chunk.css"
   },
   {
-    "revision": "a210acbebe894d6757e4",
-    "url": "/sns_peoplebook/static/js/main.a210acbe.chunk.js"
+    "revision": "ad1e65b88f35b813978a",
+    "url": "/sns_peoplebook/static/js/main.ad1e65b8.chunk.js"
   },
   {
     "revision": "6bd28e6a4085cfc4a337",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/sns_peoplebook/static/media/logo.5d5d9eef.svg"
   },
   {
-    "revision": "c9e6ce3fa93dff6416c7bb59add2d478",
+    "revision": "73ea68a1338eb06b4b81ca0cd616723e",
     "url": "/sns_peoplebook/index.html"
   }
 ];
