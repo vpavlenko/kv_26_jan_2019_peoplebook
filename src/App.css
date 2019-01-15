@@ -82,10 +82,19 @@ body {
 .answer {
     margin: 0 0 1em;
     padding: 0 5px;
+    white-space: pre-line;
+}
+
+.answer-chunk {
+  padding-bottom: 1em;
 }
 
 .person {
     position: relative;
+}
+
+a:hover {
+  color: #000;
 }
 
 @media screen and (min-width: 800px) {
@@ -101,3 +110,4 @@ body {
         height: 350px;
     }
 }
+

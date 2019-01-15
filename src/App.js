@@ -172,6 +172,30 @@ const people = [
     "knowledge": "",
     "photo": "https://archive.lksh.ru/2018/august/assets/images/teachers/%D0%94%D0%B0%D0%BD%D0%B8%D0%B8%D0%BB%20%D0%A0%D1%8F%D0%B7%D0%B0%D0%BD%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9.jpg",
     "profiles": "t.me/riazanovskiy"
+  },
+    {
+    "timestamp": "2019/01/15 5:45:56 PM GMT+3",
+    "name": "Арсений Костромин",
+    "occupation": "Работаю в b2b компании, которая занимается агрегированием данных с почти всех US retail сайтов (Amazon, Walmart, Target и так далее). В последнее время пытаюсь снизить ежедневный средней duration по выполняемым сообщениям из очереди. Хотелось бы найти людей, у которых есть опыт в ежедневном сборе данных с большого кол-ва ресурсов и в относительно большом объеме (от 100 миллионов запросов в сутки). ",
+    "knowledge": "История, от французской революции до октябрьской революции. Любительский реверс-инжиниринг, участие в CTFах (https://ctftime.org/). В какой-то степени этология, культурология.",
+    "photo": process.env.PUBLIC_URL + "/photos/kostromin.jpg",
+    "profiles": "tg:@karsenii"
+  },
+  {
+    "timestamp": "2019/01/15 5:54:36 PM GMT+3",
+    "name": "Марат Жанабеков",
+    "occupation": "Сейчас работаю в Scentbird, до этого работал три года в Едадиле. Занимаюсь ростом аудитории -- в широком смысле -- в основном performance-маркетинг, но его нельзя рассматривать без связки с аналитикой, бренд-маркетингом, инфлюенсер-маркетингом и продуктом.",
+    "knowledge": "Сложно сказать про что-то конкретное. Всего понемногу.",
+    "photo": "https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/35920402_10216271396806730_907869066042015744_n.jpg?_nc_cat=100&_nc_ht=scontent-arn2-1.xx&oh=8ee27703c44ae814aafc3b5d770c4a4d&oe=5CC51085",
+    "profiles": "fb.com/marat.zhanabekov"
+  },
+  {
+    "timestamp": "2019/01/15 6:01:29 PM GMT+3",
+    "name": "Александр Ткаченко",
+    "occupation": "Работаю в стартапах и хочу делать собственные проекты в будущем. Сейчас Android разработчик в capture.tech. В прошлом году сделал и продолжаю развивать приложение для криптовалют hodler.sh, о котором расскажу на встрече.\n\nСейчас в свободное время изучаю как работают стартапы, VC и рынки.\n\nВ ближайшие несколько лет планирую переехать в США.",
+    "knowledge": "Android, стартапы, тусовки с электронной музыкой (в т.ч. в разных городах мира).",
+    "photo": process.env.PUBLIC_URL + "/photos/tkachenko.jpg",
+    "profiles": "t.me/jackqack\ninstagram.com/jackqack\nfacebook.com/skya1ex\nvk.com/jackqack\nlinkedin.com/in/alex-tkachenko-64203434/\nskyalexx@gmail.com"
   }
 ];
 
@@ -188,14 +212,16 @@ class App extends Component {
         </div>
         <div class="people">
         {people.map(row => <div class="person" id={row.name}>
+          <Linkify>
           <div class="name name--full">{row.name}</div>
           <img class="photo photo--large" src={row.photo} />
           <div class="label">Чем занимаюсь</div>
-          <div class="answer">{row.occupation}</div>
+          <div class="answer">{row.occupation.split(/\n+/).map(paragraph => <div class="answer-chunk">{paragraph}</div>)}</div>
           <div class="label">О чем могу рассказать</div>
           <div class="answer">{row.knowledge}</div>
           <div class="label">Контакты</div>
-          <div class="answer"><Linkify>{row.profiles}</Linkify></div>
+          <div class="answer">{row.profiles}</div>
+          </Linkify>
           </div>)}
         </div>
       </div>
