@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Linkify from 'react-linkify';
 import logo from './logo.svg';
 import './App.css';
 
@@ -145,8 +146,32 @@ const people = [
     "name": "Вася Сиников",
     "occupation": "Соосновал, накодил и надизайнил MVP,  а теперь управляю развитием продуктов в www.compensair.com Обращайтесь, если у вас задержат рейс, мы выплатили уже больше 2 млн евро компенсаций. До этого учился и работал околоэкономистом. Слушаю музыку, рисую граффити, играю в шахматы",
     "knowledge": "Продакт-менеджмент, все аспекты стартапинга, Тверь, Екатеринбург, Москва, Лондон, Барселона, граффити и стритарт, шахматы, техно-хаус-джаз-хипхоп музыка, стратегический консалтинг, аудит, кейс-чемпионаты, финансовая аналитика, ВШЭ, английский и испанский язык, executive search, организация форумов, развитие сообществ, психология, долгие романтические отношения и их конец, путь к счастью и чилл по жизни :)",
-    "photo": "https://thumb.cloud.mail.ru/weblink/thumb/xw1/BX5i/xrhyQqNeX/photo_2018-12-12_02-10-30.jpg?x-email=undefined",
+    "photo": process.env.PUBLIC_URL + "/photos/sinikov.png",
     "profiles": "Добавляйтесь в друзьяшки https://vk.com/va.sinikov t.me/sinikov www.linkedin.com/in/vasinikov"
+  },
+  {
+    "timestamp": "2019/01/15 3:25:43 PM GMT+3",
+    "name": "Саша Илларионов",
+    "occupation": "Занимаюсь дата-инжинирией, анализом данных и веб-разработкой. Сейчас занят Мэпош, интерактивной картой третьих мест (сейчас проект на ранней стадии, будет доступен на maposh.com). Исследовал обучение с подкреплением, предсказание биоинформатических метаданных, квантовый хаос, квазикристаллы. Пишу каждый день в https://sdll.space.",
+    "knowledge": "Обучение зарубежом: Лондон (учился два года в Westminster School), Торонто (учился год в UToronto). ",
+    "photo": "https://raw.githubusercontent.com/sdll/sdll.github.io/source/static/social.png",
+    "profiles": "https://www.linkedin.com/in/sdll\nhttps://vk.com/sdllar\nhttps://www.facebook.com/sasha.sdll\nsasha@sdll.space"
+  },
+  {
+    "timestamp": "2019/01/15 4:23:27 PM GMT+3",
+    "name": "Иван Терентьев",
+    "occupation": "Учился в СУНЦ МГУ, ВМК МГУ, но был отчислен. Отслужил год в Карелии под Петрозаводском. Сейчас студент перового курса  магистратуры ФКН ВШЭ и ШАД. Работал год программистом на C, писал обработку сигналов и изображений под специализированные российские процессоры. Начинаю свой путь в ML.",
+    "knowledge": "Ракеты и космос, основы того как делают микроэлектронику, лыжи, водные походы(в том числе на морском каяке). Почему-то многим интересен армейский опыт.",
+    "photo": "https://instagram.fhel3-1.fna.fbcdn.net/vp/453c9a339bf50ddf24a9b7a2af765a7a/5CBFD09C/t51.2885-15/e35/30603909_1285804868219352_1306193043266732032_n.jpg?_nc_ht=instagram.fhel3-1.fna.fbcdn.net",
+    "profiles": "vk.com/progiv\nt.me/progiv"
+  },
+  {
+    "timestamp": "2019/01/15 4:33:33 PM GMT+3",
+    "name": "Данила Рязановский",
+    "occupation": "Работал в Дзене (ранжирование) и в яндексовом распознавании речи. В разное время учился на фивте и матфаке вышки и в шаде, преподавал в лкш",
+    "knowledge": "",
+    "photo": "https://archive.lksh.ru/2018/august/assets/images/teachers/%D0%94%D0%B0%D0%BD%D0%B8%D0%B8%D0%BB%20%D0%A0%D1%8F%D0%B7%D0%B0%D0%BD%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9.jpg",
+    "profiles": "t.me/riazanovskiy"
   }
 ];
 
@@ -166,11 +191,11 @@ class App extends Component {
           <div class="name name--full">{row.name}</div>
           <img class="photo photo--large" src={row.photo} />
           <div class="label">Чем занимаюсь</div>
-          <div class="answer">{row.pation}</div>
+          <div class="answer">{row.occupation}</div>
           <div class="label">О чем могу рассказать</div>
           <div class="answer">{row.knowledge}</div>
           <div class="label">Контакты</div>
-          <div class="answer">{row.profiles}</div>
+          <div class="answer"><Linkify>{row.profiles}</Linkify></div>
           </div>)}
         </div>
       </div>
