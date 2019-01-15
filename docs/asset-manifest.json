@@ -1,14 +1,14 @@
 {
-  "main.css": "/static/css/main.23f5679b.chunk.css",
-  "main.js": "/static/js/main.6d307abf.chunk.js",
-  "main.js.map": "/static/js/main.6d307abf.chunk.js.map",
-  "static/js/1.4a34e45d.chunk.js": "/static/js/1.4a34e45d.chunk.js",
-  "static/js/1.4a34e45d.chunk.js.map": "/static/js/1.4a34e45d.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
-  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg",
-  "static/css/main.23f5679b.chunk.css.map": "/static/css/main.23f5679b.chunk.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.e231bf410700d2ea15f3ea4602ecd64d.js": "/precache-manifest.e231bf410700d2ea15f3ea4602ecd64d.js",
-  "service-worker.js": "/service-worker.js"
+  "main.css": "/sns_peoplebook/static/css/main.23f5679b.chunk.css",
+  "main.js": "/sns_peoplebook/static/js/main.2bd6b4e5.chunk.js",
+  "main.js.map": "/sns_peoplebook/static/js/main.2bd6b4e5.chunk.js.map",
+  "static/js/1.4a34e45d.chunk.js": "/sns_peoplebook/static/js/1.4a34e45d.chunk.js",
+  "static/js/1.4a34e45d.chunk.js.map": "/sns_peoplebook/static/js/1.4a34e45d.chunk.js.map",
+  "runtime~main.js": "/sns_peoplebook/static/js/runtime~main.9314664a.js",
+  "runtime~main.js.map": "/sns_peoplebook/static/js/runtime~main.9314664a.js.map",
+  "static/media/logo.svg": "/sns_peoplebook/static/media/logo.5d5d9eef.svg",
+  "static/css/main.23f5679b.chunk.css.map": "/sns_peoplebook/static/css/main.23f5679b.chunk.css.map",
+  "index.html": "/sns_peoplebook/index.html",
+  "precache-manifest.8e057bce484c4766da7fad22974ef5dd.js": "/sns_peoplebook/precache-manifest.8e057bce484c4766da7fad22974ef5dd.js",
+  "service-worker.js": "/sns_peoplebook/service-worker.js"
 }
