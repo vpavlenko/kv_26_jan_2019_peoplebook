@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/sns_peoplebook/precache-manifest.f4cff2286441d69a4db670f271d0fa21.js"
+  "/sns_peoplebook/precache-manifest.6faf4d520043c820aa69367a5ae32e23.js"
 );
 
 workbox.clientsClaim();
