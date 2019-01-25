@@ -1,14 +1,14 @@
 {
-  "main.css": "/sns_peoplebook/static/css/main.4678afeb.chunk.css",
-  "main.js": "/sns_peoplebook/static/js/main.376a98ea.chunk.js",
-  "main.js.map": "/sns_peoplebook/static/js/main.376a98ea.chunk.js.map",
-  "static/js/1.6bd28e6a.chunk.js": "/sns_peoplebook/static/js/1.6bd28e6a.chunk.js",
-  "static/js/1.6bd28e6a.chunk.js.map": "/sns_peoplebook/static/js/1.6bd28e6a.chunk.js.map",
-  "runtime~main.js": "/sns_peoplebook/static/js/runtime~main.9314664a.js",
-  "runtime~main.js.map": "/sns_peoplebook/static/js/runtime~main.9314664a.js.map",
-  "static/media/logo.svg": "/sns_peoplebook/static/media/logo.5d5d9eef.svg",
-  "static/css/main.4678afeb.chunk.css.map": "/sns_peoplebook/static/css/main.4678afeb.chunk.css.map",
-  "index.html": "/sns_peoplebook/index.html",
-  "precache-manifest.6faf4d520043c820aa69367a5ae32e23.js": "/sns_peoplebook/precache-manifest.6faf4d520043c820aa69367a5ae32e23.js",
-  "service-worker.js": "/sns_peoplebook/service-worker.js"
+  "main.css": "/kv_26_jan_2019_peoplebook/static/css/main.7ed468dd.chunk.css",
+  "main.js": "/kv_26_jan_2019_peoplebook/static/js/main.9d6abe13.chunk.js",
+  "main.js.map": "/kv_26_jan_2019_peoplebook/static/js/main.9d6abe13.chunk.js.map",
+  "static/js/1.c4adef9b.chunk.js": "/kv_26_jan_2019_peoplebook/static/js/1.c4adef9b.chunk.js",
+  "static/js/1.c4adef9b.chunk.js.map": "/kv_26_jan_2019_peoplebook/static/js/1.c4adef9b.chunk.js.map",
+  "runtime~main.js": "/kv_26_jan_2019_peoplebook/static/js/runtime~main.b6efbf67.js",
+  "runtime~main.js.map": "/kv_26_jan_2019_peoplebook/static/js/runtime~main.b6efbf67.js.map",
+  "static/media/logo.svg": "/kv_26_jan_2019_peoplebook/static/media/logo.5d5d9eef.svg",
+  "static/css/main.7ed468dd.chunk.css.map": "/kv_26_jan_2019_peoplebook/static/css/main.7ed468dd.chunk.css.map",
+  "index.html": "/kv_26_jan_2019_peoplebook/index.html",
+  "precache-manifest.98498ef06e0d170504fb5d6307fc1a98.js": "/kv_26_jan_2019_peoplebook/precache-manifest.98498ef06e0d170504fb5d6307fc1a98.js",
+  "service-worker.js": "/kv_26_jan_2019_peoplebook/service-worker.js"
 }

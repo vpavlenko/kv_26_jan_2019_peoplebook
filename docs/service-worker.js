@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/sns_peoplebook/precache-manifest.6faf4d520043c820aa69367a5ae32e23.js"
+  "/kv_26_jan_2019_peoplebook/precache-manifest.98498ef06e0d170504fb5d6307fc1a98.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/sns_peoplebook/index.html", {
+workbox.routing.registerNavigationRoute("/kv_26_jan_2019_peoplebook/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
