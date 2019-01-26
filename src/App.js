@@ -66,7 +66,7 @@ const people = [
     "knowledge": "Опыт путешествия автостопом по Исландии в марте, психотерапия, медитации, кино, мозг и когнитивные искажения.",
     "name": "Альфия Бабий",
     "occupation": "Работала в Accenture и Redmadrobot. Анализ текстовых данных, компьютерная лингвистика, проектирование диалоговых систем - вот это все. Сейчас занимаюсь этим на фрилансе и чувствую себя очень комфортно. Хочу научить бота генеративно шутить и пытаюсь двигаться в эту сторону. Хочу сама научиться нормально шутить, но делаю для этого не так много. Вот написала материал про свой опыт полиаморных отношений и собираюсь выступить с ним в стендап-клабе. Приходите.",
-    "photo": process.env.PUBLIC_URL + "/photos/babiy.jpg",
+    "photo": process.env.PUBLIC_URL + "/photos/babiy.jpg?1",
     "profiles": "@helmeton",
     "timestamp": "2019/01/25 8:54:12 PM GMT+3"
   },
@@ -101,6 +101,62 @@ const people = [
     "photo": process.env.PUBLIC_URL + "/photos/ali.jpg",
     "profiles": "Телеграм: @lordali\nПочта: mr.alexander.ali@gmail.com",
     "timestamp": "2019/01/25 10:20:32 PM GMT+3"
+  },
+    {
+    "knowledge": "Diving, Freediving, Climbing.\nFuckups/Sucess business cases",
+    "name": "Egor Petukhovsky",
+    "occupation": "Owner of companies involved in Fintech/Crypto/AR game dev",
+    "photo": process.env.PUBLIC_URL + "/photos/petukhovsky.jpg",
+    "profiles": "Fb.com/Petukhovsky",
+    "timestamp": "2019/01/26 12:13:08 AM GMT+3"
+  },
+  {
+    "knowledge": "маркетинг сложных сервисов, таргетинг, CPA-сети, работа с аудиторией 14-25, кроссовки, монетизация телеграм-каналов, рестораны, доставки еды и другие способы поесть, практика стендап-комедии и скучная теория юмора, как потерять загранпаспорт накануне вылета и как этого можно было избежать",
+    "name": "Даниэль Фельдман",
+    "occupation": "Я придумал и делаю СНИКЕРСЕЙЛ - сервис для поиска лучших цен на обувь. До этого в Microsoft отвечал за B2B маркетинг облачных сервисов. В свободное от работы время стараюсь вести телеграм-канал @kudaeda про московские рестораны. И ем в них. В свободное от работы и канала время (кого я обманываю) занимаюсь стенд-апом",
+    "photo": process.env.PUBLIC_URL + "/photos/feldman.jpg",
+    "profiles": "tlg.wtf/feldmand",
+    "timestamp": "2019/01/26 12:23:46 AM GMT+3"
+  },
+  {
+    "knowledge": "Образовательные тренды, рынок меди и кобальта, русский рэп, футбол",
+    "name": "Роман Волков",
+    "occupation": "Стратегия коммерции в ERG, образовательный проект UpGrade, case support BCG",
+    "photo": process.env.PUBLIC_URL + "/photos/volkov.jpg",
+    "profiles": "vk.com/revolkov",
+    "timestamp": "2019/01/26 12:23:49 AM GMT+3"
+  },
+  {
+    "knowledge": "О Москве, градостроительстве, урбанистике, строительстве, истории, инвестициях, девелопменте",
+    "name": "Александр Землянский",
+    "occupation": "Девелопмент, строительство, инвестиции, привлечение инвестиций, собственные пабы, футбол, батуты, гитара, не люблю демократию (привет)",
+    "photo": process.env.PUBLIC_URL + "/photos/zemlyansky.png",
+    "profiles": "https://vk.com/alexvzeml",
+    "timestamp": "2019/01/26 12:41:08 AM GMT+3"
+  },
+  {
+    "knowledge": "Урал, баня, Потанинка",
+    "name": "Рафаэль Валиахметов ",
+    "occupation": "SAP ERP",
+    "photo": process.env.PUBLIC_URL + "/photos/rafael.jpg",
+    "profiles": "vk.com/id318707485",
+    "timestamp": "2019/01/26 12:49:18 AM GMT+3"
+  },
+  {
+    "knowledge": "Рациональное мышление, оптимизация бизнес-процессов, научпоп, научная фантастика, архитектура, продукция виноделия Пьемонта, путешествия по России (70+ городов), волонтерство, трубная арматура.",
+    "name": "Анастасия Гапонец",
+    "occupation": "Опыт работы в John Deere и General Electric. Работала фин.директором на винодельне в Италии. Сейчас являюсь финансовым директором на металлургическом предприятии. ",
+    "photo": process.env.PUBLIC_URL + "/photos/gaponec.jpg",
+    "profiles": "https://vk.com/siberria\nhttps://www.facebook.com",
+    "timestamp": "2019/01/26 12:57:14 AM GMT+3"
+  },
+  {
+    "knowledge": "Банковский учёт и отчётность, плавание и сноуборд, Новая Зеландия",
+    "name": "Михаил Кортунов",
+    "occupation": "IT и финансы. Занимаюсь проектируем и развитием хранилища данных в крупнейших банков. Продвигаем технологии Big Data в России и аналитические приложения на их базе",
+    "photo": process.env.PUBLIC_URL + "/photos/kortunov.jpg",
+    "profiles": "https://t.me/sial_mk\nhttps://vk.com/sial_mk",
+    "timestamp": "2019/01/26 11:13:36 AM GMT+3"
   }
 ];
 
